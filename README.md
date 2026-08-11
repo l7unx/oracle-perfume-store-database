@@ -1,4 +1,4 @@
-# 🌸 Perfume Store Database
+# 🌸 Oracle Perfume Store Database
 
 A database project for managing a perfume store using **Oracle Database**, **SQL**, and **PL/SQL**.
 
