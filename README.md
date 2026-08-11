@@ -1,10 +1,10 @@
 # 🌸 Perfume Store Database
 
-A database project for managing a perfume store using **Oracle Database** and **SQL/PLSQL**.
+A database project for managing a perfume store using **Oracle Database**, **SQL**, and **PL/SQL**.
 
-## 📌 Project Overview
+## 📖 Project Overview
 
-This project demonstrates the design and implementation of a relational database for a perfume store. It includes database tables, relationships, sample data, SQL queries, and PL/SQL objects such as stored functions, procedures, and triggers.
+This project demonstrates the design and implementation of a relational database for a perfume store. It includes database design, relationships, sample data, SQL queries, and PL/SQL objects such as stored functions, procedures, and triggers.
 
 ---
 
@@ -21,12 +21,17 @@ This project demonstrates the design and implementation of a relational database
 ```
 Perfume-Store-Database/
 │
-├── setup.sql        # Create tables, relationships, sample data, functions, procedures, and triggers
-├── queries.sql      # SQL queries
-├── tests.sql        # Test scripts for update, delete, function, procedure, and trigger
+├── setup.sql
+├── queries.sql
+├── tests.sql
 ├── README.md
 └── docs/
-    └── DB-Project-Report.pdf
+    ├── ERD.png
+    ├── Database-Relation-Schema.png
+    ├── Tables.png
+    ├── Query-Result.png
+    ├── Procedure-Test.png
+    └── Trigger-Test.png
 ```
 
 ---
@@ -44,7 +49,7 @@ Perfume-Store-Database/
 ## ✨ Features
 
 - Relational database design
-- Primary and foreign key constraints
+- Primary and Foreign Key constraints
 - Sample data insertion
 - SQL queries
 - Stored Function
@@ -55,16 +60,44 @@ Perfume-Store-Database/
 
 ## ▶️ How to Run
 
-1. Open Oracle SQL Developer or Oracle APEX.
-2. Run `setup.sql`.
-3. Run `queries.sql` to execute SQL queries.
-4. Run `tests.sql` to test the database objects.
+1. Run `setup.sql` to create the database objects and insert sample data.
+2. Run `queries.sql` to execute SQL queries.
+3. Run `tests.sql` to test the function, procedure, and trigger.
 
 ---
 
-## 📄 Project Report
+# 📸 Database Design
 
-The complete project report is available in the `docs` folder.
+### Entity Relationship Diagram (ERD)
+
+![ERD](docs/ERD.png)
+
+### Database Relation Schema
+
+![Database Relation Schema](docs/Database-Relation-Schema.png)
+
+---
+
+# 📸 Database Tables
+
+![Tables](docs/Tables.png)
+
+---
+
+# 📸 SQL Query Result
+
+![Query Result](docs/Query-Result.png)
+
+---
+
+# 📸 Stored Procedure Test
+
+![Procedure Test](docs/Procedure-Test.png)
+---
+
+# 📸 Trigger Test
+
+![Trigger Test](docs/Trigger-Test.png)
 
 ---
 
