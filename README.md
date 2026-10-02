@@ -100,7 +100,15 @@ Perfume-Store-Database/
 ![Trigger Test](docs/Trigger-Test.png)
 
 ---
+## 👩‍💻 My Contribution
 
-## 👩‍💻 Author
+My contribution to this project focused on the database implementation, including:
 
-**Aryam Attia**
+- Writing SQL queries.
+- Implementing PL/SQL functions and procedures.
+- Implementing database triggers.
+- Testing database operations and PL/SQL objects.
+
+## 👥 Team Project
+
+This project was developed collaboratively as a team project.
