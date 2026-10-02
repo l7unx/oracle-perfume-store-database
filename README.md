@@ -8,7 +8,7 @@ This project demonstrates the design and implementation of a relational database
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Oracle Database
 - SQL
